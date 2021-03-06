@@ -1,0 +1,26 @@
+.product-list {
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+
+.image-part {
+    margin: 5px;
+    padding: 5px;
+}
+
+.info-part {
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn {
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(194, 181, 71);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
