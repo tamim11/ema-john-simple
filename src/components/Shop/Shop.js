@@ -5,8 +5,8 @@ import './Shop.css';
 import '../Product/Product.css';
 
 const Shop = () => {
-    const first10 = fakeData.slice(0, 10);
-    const [products, setProducts] = useState(first10);
+    const first20 = fakeData.slice(0, 20);
+    const [products, setProducts] = useState(first20);
     const [cart, setCart] = useState([]);
 
     const addProduct = (product) => {
@@ -24,7 +24,7 @@ const Shop = () => {
         <div className="shop-container">
             <div className="product-container">
                 {
-                    products.map(product => <Product product={product} func={addProduct}></Product>)
+                    products.map(product => <Product showButton={true} product={product} func={addProduct}></Product>)
                 }
             </div>
             <div className="cart-container">

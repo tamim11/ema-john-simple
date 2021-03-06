@@ -12,4 +12,7 @@
 .cart-container {
     padding: 5px;
     margin: 5px;
+    position: fixed;
+    top: 100px;
+    right: 200px;
 }
